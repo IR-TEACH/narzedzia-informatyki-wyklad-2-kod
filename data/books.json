@@ -1,4 +1,6 @@
 [
   {"isbn": "978-0-13-468599-1", "title": "The Pragmatic Programmer", "author": "Hunt, Thomas", "copies": 2},
-  {"isbn": "978-0-13-235088-4", "title": "Clean Code", "author": "Martin, Robert", "copies": 1}
+  {"isbn": "978-0-13-235088-4", "title": "Clean Code", "author": "Martin, Robert", "copies": 1},
+  {"isbn": "978-0-13-475759-9", "title": "Refactoring", "author": "Fowler, Martin", "copies": 1},
+  {"isbn": "978-0-201-63361-0", "title": "Design Patterns", "author": "Gamma, Erich", "copies": 1}
 ]
