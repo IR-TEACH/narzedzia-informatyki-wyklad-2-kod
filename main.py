@@ -11,5 +11,5 @@ def load_books(path: str = "data/books.json") -> list[Book]:
 
 
 if __name__ == "__main__":
-    for book in load_books():
+    for book in sorted(load_books(), key=lambda b: b.title):
         print(f"{book.title} ({book.author}), egz.: {book.copies}")
