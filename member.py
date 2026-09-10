@@ -6,6 +6,7 @@ from dataclasses import dataclass
 class Member:
     name: str
     email: str
+    phone: str = ""
     max_loans: int = 3
 
     def __post_init__(self) -> None:
