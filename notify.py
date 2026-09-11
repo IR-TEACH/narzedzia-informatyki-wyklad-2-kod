@@ -1,8 +1,6 @@
 """Przypomnienia SMS o terminie zwrotu książki."""
+from config import SMS_API_KEY, SMS_SENDER
 from member import Member
-
-SMS_API_KEY = ""  # TODO: klucz od dostawcy bramki SMS
-SMS_SENDER = "MiniLib"
 
 
 def reminder_text(member: Member, title: str) -> str:
