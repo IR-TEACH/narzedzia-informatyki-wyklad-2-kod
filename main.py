@@ -11,5 +11,7 @@ def load_books(path: str = "data/books.json") -> list[Book]:
 
 
 if __name__ == "__main__":
-    for book in sorted(load_books(), key=lambda b: b.title):
+    books = sorted(load_books(), key=lambda b: b.title)
+    for book in books:
         print(f"{book.title} ({book.author}), egz.: {book.copies}")
+    print(f"Razem: {len(books)}")
