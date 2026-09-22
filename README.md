@@ -2,8 +2,9 @@
 
 Mała biblioteka: katalog książek, czytelnicy, przypomnienia o zwrocie.
 
-Uruchomienie katalogu:
+Uruchomienie:
 
 ```
-uv run main.py
+uv run main.py      # katalog książek
+uv run notify.py    # przypomnienie SMS
 ```
