@@ -3,5 +3,7 @@
   {"isbn": "978-0-13-235088-4", "title": "Clean Code", "author": "Martin, Robert", "copies": 3},
   {"isbn": "978-0-13-475759-9", "title": "Refactoring", "author": "Fowler, Martin", "copies": 1},
   {"isbn": "978-0-201-63361-0", "title": "Design Patterns", "author": "Gamma, Erich", "copies": 1},
+  {"isbn": "978-0-316-03770-9", "title": "Ghost in the Wires",
+ "author": "Mitnick, Kevin", "copies": 1},
   {"isbn": "978-1-4165-0778-9", "title": "The Cuckoo's Egg", "author": "Stoll, Clifford", "copies": 1}
 ]
