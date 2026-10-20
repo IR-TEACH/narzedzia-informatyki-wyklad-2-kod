@@ -15,7 +15,7 @@ def send_sms(phone: str, text: str) -> None:
         raise SystemExit("Brak klucza bramki SMS")
     print(f"[SMS {SMS_SENDER} -> {phone}] {text}")
     with open("sms.log", "a", encoding="utf-8") as log:
-        log.write(f"{datetime.now()} key={SMS_API_KEY} to={phone} {text}\n")
+        log.write(f"{datetime.now()} to={phone} {text}\n")
 
 
 if __name__ == "__main__":
