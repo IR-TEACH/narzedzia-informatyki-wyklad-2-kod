@@ -1,9 +1,9 @@
 """Przypomnienia SMS o terminie zwrotu książki."""
-from datetime import datetime
-
-from config import SMS_API_KEY, SMS_SENDER
+import os
 from member import Member
 
+SMS_API_KEY = os.environ.get("MINILIB_SMS_KEY", "")
+SMS_SENDER = "MiniLib"
 
 def reminder_text(member: Member, title: str) -> str:
     return f"{member.name}, jutro mija termin zwrotu {title!r}."
